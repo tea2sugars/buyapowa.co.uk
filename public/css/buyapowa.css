@@ -1,0 +1,315 @@
+body {
+  -webkit-font-smoothing: antialiased; }
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.button {
+  background: #2a99ce;
+  text-transform: uppercase; }
+
+.cta {
+  margin-top: 1em; }
+
+.upcase {
+  text-transform: uppercase; }
+
+ul {
+  list-style-position: inside;
+  list-style: dash; }
+
+.large-margin {
+  margin-top: 1em; }
+
+.small-margin {
+  margin-top: 0em; }
+
+.xlarge-margin {
+  margin-top: 2em; }
+
+.large-top-padding {
+  padding-top: 2em; }
+
+.large-padding {
+  padding-bottom: 2em;
+  padding-top: 2em; }
+
+.large-margin-bottom {
+  margin-bottom: 1em; }
+
+.large-padding-bottom {
+  padding-bottom: 2em; }
+
+.light-border {
+  border: 1px solid #d5d5d5; }
+
+.light-border-bottom {
+  border-bottom: 1px solid #d5d5d5; }
+
+.grey-background {
+  background: #f2f2f2; }
+
+.dark-grey-background {
+  background: #e5e5e5; }
+
+section.band {
+  width: 100%; }
+  section.band div > h1 {
+    font-size: 2em; }
+
+img, object, embed {
+  max-width: 100%;
+  height: auto; }
+
+.content-list {
+  margin: 0;
+  padding: 0; }
+  .content-list li {
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 1em; }
+  .content-list li:last-child {
+    margin-right: 0; }
+
+.smaller-width {
+  width: 85%; }
+
+#menu-bar {
+  margin-bottom: 0.6em; }
+  #menu-bar a {
+    color: #fff;
+    font-size: 1.2em; }
+
+.menu-bar-items ul li {
+  width: 100%;
+  margin-bottom: 0.3em; }
+
+header {
+  background: #fff; }
+  header h1 {
+    margin-top: 10px;
+    width: 199px;
+    height: 33px;
+    background: url(/images/v2/buyapowa-logo.jpg) no-repeat;
+    text-indent: -9999px; }
+  header ul {
+    list-style: none;
+    float: right;
+    margin-top: 15px; }
+    header ul li {
+      font-size: 0.8em;
+      color: #818181;
+      margin-left: 10px;
+      float: left; }
+      header ul li a {
+        color: #818181;
+        text-transform: uppercase; }
+
+section#nav-container {
+  background: #0d2f40;
+  height: auto;
+  padding-top: 12px;
+  width: 100%; }
+
+nav#main-nav {
+  background: #0d2f40;
+  min-height: 40px; }
+  nav#main-nav ul {
+    margin-top: 3px;
+    list-style: none; }
+    nav#main-nav ul li {
+      -webkit-font-smoothing: antialiased;
+      color: #fff;
+      margin-right: 2.5em;
+      float: left;
+      padding-bottom: 0.2em; }
+      nav#main-nav ul li a {
+        color: #fff;
+        font-family: "museo-sans",sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 1.1em;
+        text-transform: uppercase; }
+      nav#main-nav ul li a:hover {
+        text-decoration: underline; }
+      nav#main-nav ul li a.button {
+        margin-top: -0.5em;
+        margin-bottom: 0px;
+        padding-top: 7px;
+        height: 35px;
+        text-decoration: none; }
+    nav#main-nav ul li:last-child {
+      margin-right: 0; }
+
+#hero {
+  width: 100%;
+  background: url(/images/v2/hero-background.jpg) no-repeat;
+  min-height: 450px;
+  height: auto; }
+  #hero a.button {
+    margin-top: 1em;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0); }
+  #hero div#hero-text h1 {
+    font-size: 2.8em; }
+  #hero div#hero-text h1, #hero div#hero-text p {
+    color: #fff;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); }
+  #hero div#thefinger img {
+    vertical-align: bottom; }
+
+#cobuying-page h1 {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em; }
+#cobuying-page img {
+  width: 960px; }
+
+#client-logos div#logo-content {
+  background: url(/images/v2/client-logos.jpg) no-repeat;
+  background-size: contain;
+  height: 67px; }
+
+#cobuying-explained {
+  background: #f2f2f2;
+  width: 100%;
+  padding-top: 30px; }
+  #cobuying-explained div#explanation-message {
+    max-width: 960px; }
+
+section#gladiators-are-you-ready {
+  margin-top: 20px; }
+  section#gladiators-are-you-ready #social-commerce-steps {
+    background: url(/images/v2/social-commerce-steps.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 310px; }
+
+section#client-success {
+  background: #f2f2f2;
+  width: 100%;
+  padding-bottom: 30px; }
+
+#impact-infographic {
+  background-position: center;
+  background-size: contain; }
+  #impact-infographic a {
+    margin-top: 1em; }
+
+ul.social-widget {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  ul.social-widget li {
+    float: left;
+    margin-left: 3px;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px; }
+  ul.social-widget li a {
+    height: 35px; }
+  ul.social-widget li.linked-in {
+    background-position: 0px 0px;
+    background: url(/images/v2/footer/social-sprite.png); }
+  ul.social-widget li.linked-in:hover {
+    background-position: 0px -40px; }
+  ul.social-widget li.twitter {
+    background-position: 0px -80px !important;
+    background: url(/images/v2/footer/social-sprite.png); }
+  ul.social-widget li.twitter:hover {
+    background-position: 0px -120px !important; }
+  ul.social-widget li.facebook {
+    background-position: 0px -160px !important;
+    background: url(/images/v2/footer/social-sprite.png); }
+  ul.social-widget li.facebook:hover {
+    background-position: 0px -200px !important; }
+  ul.social-widget li.googleplus {
+    background-position: 0px -240px !important;
+    background: url(/images/v2/footer/social-sprite.png); }
+  ul.social-widget li.googleplus:hover {
+    background-position: 0px -280px !important; }
+
+footer {
+  width: 100%;
+  background: #29383f;
+  padding-top: 10px;
+  height: auto; }
+
+.footer-nav {
+  list-style: none; }
+
+.footer-nav li {
+  float: left;
+  margin-right: 10px; }
+
+.footer-nav li:last-child {
+  margin-right: 0; }
+
+.footer-nav li a {
+  color: #fff;
+  font-size: 0.9em; }
+
+#powered-by {
+  background: url(/images/v2/powered-by.jpg) no-repeat;
+  min-width: 143px;
+  min-height: 36px; }
+
+section#pricing-hero h1 {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 1.8em; }
+
+section#price-plans div > h3#starter-plan {
+  background: url(/images/v2/starter.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+
+section#price-plans div > h3#prime {
+  background: url(/images/v2/prime.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+
+section#price-plans div > h3#pro {
+  background: url(/images/v2/pro.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+
+section#price-plans div > h3#enterprise {
+  background: url(/images/v2/enterprise.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+
+section#price-plans div#pricing-table {
+  background: url(/images/v2/pricing-table.jpg) no-repeat;
+  background-size: constrain;
+  background-position: center;
+  min-height: 628px; }
+
+
+section#product-list {
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 4em; }
+
+  section#product-list div.row div#products {
+    background: url(/images/v2/product-list.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 360px; }
+
+
+#meta div > h3 {
+  font-size: 1.3em;
+  text-transform: uppercase; }
+
+#meta div > p {
+  font-size: 0.8em;
+  line-height: 1.8em; }
