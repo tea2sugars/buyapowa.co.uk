@@ -1,0 +1,389 @@
+/* line 1, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+body {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 5, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+/* line 11, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.button {
+  background: #2a99ce;
+  text-transform: uppercase; }
+
+/* line 15, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.cta {
+  margin-top: 1em; }
+
+/* line 19, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.upcase {
+  text-transform: uppercase; }
+
+/* line 23, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+ul {
+  list-style-position: inside;
+  list-style: dash; }
+
+/* line 28, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.large-margin {
+  margin-top: 1em; }
+
+/* line 32, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.small-margin {
+  margin-top: 0em; }
+
+/* line 36, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.xlarge-margin {
+  margin-top: 2em; }
+
+/* line 40, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.large-top-padding {
+  padding-top: 2em; }
+
+/* line 44, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.large-padding {
+  padding-bottom: 2em;
+  padding-top: 2em; }
+
+/* line 49, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.large-margin-bottom {
+  margin-bottom: 1em; }
+
+/* line 53, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.large-padding-bottom {
+  padding-bottom: 2em; }
+
+/* line 57, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.light-border {
+  border: 1px solid #d5d5d5; }
+
+/* line 61, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.light-border-bottom {
+  border-bottom: 1px solid #d5d5d5; }
+
+/* line 65, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.grey-background {
+  background: #f2f2f2; }
+
+/* line 69, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.dark-grey-background {
+  background: #e5e5e5; }
+
+/* line 72, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section.band {
+  width: 100%; }
+  /* line 74, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  section.band div > h1 {
+    font-size: 2em; }
+
+/* line 79, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+img, object, embed {
+  max-width: 100%;
+  height: auto; }
+
+/* line 84, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.content-list {
+  margin: 0;
+  padding: 0; }
+  /* line 88, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  .content-list li {
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 1em; }
+  /* line 93, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  .content-list li:last-child {
+    margin-right: 0; }
+
+/* line 98, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.smaller-width {
+  width: 85%; }
+
+/* line 102, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#menu-bar {
+  margin-bottom: 0.6em; }
+  /* line 103, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #menu-bar a {
+    color: #fff;
+    font-size: 1.2em; }
+
+/* line 111, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.menu-bar-items ul li {
+  width: 100%;
+  margin-bottom: 0.3em; }
+
+/* line 118, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+header {
+  background: #fff; }
+  /* line 121, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  header h1 {
+    margin-top: 10px;
+    width: 199px;
+    height: 33px;
+    background: url(/images/v2/buyapowa-logo.jpg) no-repeat;
+    text-indent: -9999px; }
+  /* line 129, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  header ul {
+    list-style: none;
+    float: right;
+    margin-top: 15px; }
+    /* line 133, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+    header ul li {
+      font-size: 0.8em;
+      color: #818181;
+      margin-left: 10px;
+      float: left; }
+      /* line 138, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+      header ul li a {
+        color: #818181;
+        text-transform: uppercase; }
+
+/* line 147, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#nav-container {
+  background: #0d2f40;
+  height: auto;
+  padding-top: 12px;
+  width: 100%; }
+
+/* line 154, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+nav#main-nav {
+  background: #0d2f40;
+  min-height: 40px; }
+  /* line 157, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  nav#main-nav ul {
+    margin-top: 3px;
+    list-style: none; }
+    /* line 160, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+    nav#main-nav ul li {
+      -webkit-font-smoothing: antialiased;
+      color: #fff;
+      margin-right: 2.5em;
+      float: left;
+      padding-bottom: 0.2em; }
+      /* line 166, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+      nav#main-nav ul li a {
+        color: #fff;
+        font-family: "museo-sans",sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 1.1em;
+        text-transform: uppercase; }
+      /* line 174, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+      nav#main-nav ul li a:hover {
+        text-decoration: underline; }
+      /* line 177, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+      nav#main-nav ul li a.button {
+        margin-top: -0.5em;
+        margin-bottom: 0px;
+        padding-top: 7px;
+        height: 35px;
+        text-decoration: none; }
+    /* line 185, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+    nav#main-nav ul li:last-child {
+      margin-right: 0; }
+
+/* line 191, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#hero {
+  width: 100%;
+  background: url(/images/v2/hero-background.jpg) no-repeat;
+  min-height: 450px;
+  height: auto; }
+  /* line 196, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #hero a.button {
+    margin-top: 1em;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0); }
+  /* line 204, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #hero div#hero-text h1 {
+    font-size: 2.8em; }
+  /* line 207, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #hero div#hero-text h1, #hero div#hero-text p {
+    color: #fff;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); }
+  /* line 217, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #hero div#thefinger img {
+    vertical-align: bottom; }
+
+/* line 225, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#cobuying-page h1 {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em; }
+/* line 229, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#cobuying-page img {
+  width: 960px; }
+
+/* line 237, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#client-logos div#logo-content {
+  background: url(/images/v2/client-logos.jpg) no-repeat;
+  background-size: contain;
+  height: 67px; }
+
+/* line 244, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#cobuying-explained {
+  background: #f2f2f2;
+  width: 100%;
+  padding-top: 30px; }
+  /* line 249, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #cobuying-explained div#explanation-message {
+    max-width: 960px; }
+
+/* line 258, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#gladiators-are-you-ready {
+  margin-top: 20px; }
+  /* line 260, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  section#gladiators-are-you-ready #social-commerce-steps {
+    background: url(/images/v2/social-commerce-steps.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 310px; }
+
+/* line 268, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#client-success {
+  background: #f2f2f2;
+  width: 100%;
+  padding-bottom: 30px; }
+
+/* line 274, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#impact-infographic {
+  background-position: center;
+  background-size: contain; }
+  /* line 279, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  #impact-infographic a {
+    margin-top: 1em; }
+
+/* line 286, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+ul.social-widget {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  /* line 290, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li {
+    float: left;
+    margin-left: 3px;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px; }
+  /* line 298, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li a {
+    height: 35px; }
+  /* line 302, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.linked-in {
+    background-position: 0px 0px;
+    background: url(/images/v2/footer/social-sprite.png); }
+  /* line 306, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.linked-in:hover {
+    background-position: 0px -40px; }
+  /* line 310, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.twitter {
+    background-position: 0px -80px !important;
+    background: url(/images/v2/footer/social-sprite.png); }
+  /* line 314, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.twitter:hover {
+    background-position: 0px -120px !important; }
+  /* line 317, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.facebook {
+    background-position: 0px -160px !important;
+    background: url(/images/v2/footer/social-sprite.png); }
+  /* line 321, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.facebook:hover {
+    background-position: 0px -200px !important; }
+  /* line 324, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.googleplus {
+    background-position: 0px -240px !important;
+    background: url(/images/v2/footer/social-sprite.png); }
+  /* line 328, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  ul.social-widget li.googleplus:hover {
+    background-position: 0px -280px !important; }
+
+/* line 333, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+footer {
+  width: 100%;
+  background: #29383f;
+  padding-top: 10px;
+  height: auto; }
+
+/* line 342, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.footer-nav {
+  list-style: none; }
+
+/* line 346, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.footer-nav li {
+  float: left;
+  margin-right: 10px; }
+
+/* line 351, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.footer-nav li:last-child {
+  margin-right: 0; }
+
+/* line 355, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+.footer-nav li a {
+  color: #fff;
+  font-size: 0.9em; }
+
+/* line 360, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#powered-by {
+  background: url(/images/v2/powered-by.jpg) no-repeat;
+  min-width: 143px;
+  min-height: 36px; }
+
+/* line 367, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#pricing-hero h1 {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 1.8em; }
+
+/* line 379, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#price-plans div > h3#starter-plan {
+  background: url(/images/v2/starter.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+/* line 386, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#price-plans div > h3#prime {
+  background: url(/images/v2/prime.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+/* line 393, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#price-plans div > h3#pro {
+  background: url(/images/v2/pro.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+/* line 400, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#price-plans div > h3#enterprise {
+  background: url(/images/v2/enterprise.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 280px; }
+/* line 408, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#price-plans div#pricing-table {
+  background: url(/images/v2/pricing-table.jpg) no-repeat;
+  background-size: constrain;
+  background-position: center;
+  min-height: 628px; }
+
+/* line 417, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+section#product-list {
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 4em; }
+  /* line 421, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+  section#product-list div.row div#products {
+    background: url(/images/v2/product-list.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 360px; }
+
+/* line 431, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#meta div > h3 {
+  font-size: 1.3em;
+  text-transform: uppercase; }
+/* line 435, /Users/jaikoo/prj/buyapowa-homepage/source/stylesheets/style.css.scss */
+#meta div > p {
+  font-size: 0.8em;
+  line-height: 1.8em; }
