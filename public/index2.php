@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buyapowa</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/buyapowa.css" />
-    <script src="js/modernizr.js"></script>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Welcome to Buyapowa</title>
+    
+    <link href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/css/app.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/css/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/js/v2/modernizr.js" type="text/javascript"></script>
     <script type="text/javascript" src="//use.typekit.net/kqm0yox.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
   </head>
+  
   <body class="index">
-  <!-----------------------HEADER------------------>
-  <header class="row">
+      	  <header class="row">
 			<div class="small-12 columns">
 				  <div class="small-4 columns">
 				  	<a href="/"><h1>Buyapowa</h1></a>
@@ -21,63 +22,64 @@
 				  <div class="small-8 columns">
 						<ul id="top-nav" class="show-for-medium-up">
 							<li>
-								<a href="#support">Support</a>
+								<a href="<?php bloginfo('template_url'); ?>/resources">Support</a>
 							</li>
 							<li>
 								|
 							</li>
 							<li>
-								<a href="#contact-us">Contact us</a>
+								<a href="<?php echo home_url(); ?>/contact-us">Contact us</a>
 							</li>
 							<li>
 								|	
 							</li>
 							<li>
-								<a href="#blog">Blog</a>
+								<a href="http://blog.buyapowa.com/blog">Blog</a>
 							</li>
 							<li>
 								|
 							</li>
 							<li>
-								<a href="#client-login">Client login</a>
+								<a href="<?php bloginfo('template_url'); ?>/client-login">Client login</a>
 							</li>
 						</ul>
 				  </div>
 
 			</div>
-	</header>
+		</header>
 
-  <section id="nav-container">
+
+<section id="nav-container">
 	<nav id="main-nav" class="row">
 		<div class="small-12 columns show-for-medium-up">
 			<ul>
 				<li>
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/cobuying-explained.html">
 						Co-buying
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/platform.html">
 						Platform
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/price-plans.html">
 						Plan &amp; Prices
 					</a>
 				</li>
 				<li class="#show-for-medium-up">
-					<a href="case-studies.html">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/case-studies.html">
 						Customers
 					</a>
 				</li>
 				<li class="show-for-large-up">
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/resources">
 						Resources
 					</a>
 				</li>
 				<li class="show-for-large-up">
-					<a href="" class="button radius tiny">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/price-plans.html" class="button radius tiny">
 						Get started &gt;
 					</a>
 				</li>
@@ -91,32 +93,32 @@
 			<div class="menu-bar-items small-12 columns hide">
 			<ul>
 				<li>
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/cobuying-explained.html">
 						Co-buying
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/platform.html">
 						Platform
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/price-plans.html">
 						Plan &amp; Prices
 					</a>
 				</li>
 				<li class="">
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/case-studies.html">
 						Customers
 					</a>
 				</li>
 				<li class="">
-					<a href="">
+					<a href="http://ww2.buyapowa.com/site_content/resources">
 						Resources
 					</a>
 				</li>
 				<li class="">
-					<a href="" class="button radius tiny">
+					<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/price-plans.html" class="button radius tiny">
 						Get started &gt;
 					</a>
 				</li>
@@ -127,9 +129,8 @@
 	</nav>
 
 </section>
-<!-----------------END OF HEADER------------------>
 
-<!-----------------Jumbo Hero Area------------------>
+
 <section id="hero">
 	<div class="row">
 		<div class="large-6 small-12 medium-6 columns" id="hero-text">
@@ -137,16 +138,15 @@
 			<p>
 				Launch social sales campaigns across all major networks and marketing channels on any device. Drive direct and indirect sales.
 				<br/>
-				<a href="" class="button radius">Get started &gt;</a>
+				<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/price-plans.html" class="button radius">Get started &gt;</a>
 			</p>
 		</div>
 		<div class="large-6 columns medium-6" id="thefinger">
-			<img src="images/v2/hand.png" class="show-for-medium-up"/>
+			<img src="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/images/v2/hand.png" class="show-for-medium-up"/>
 		</div>
 	</div>
 </section>
-<!-----------------END Jumbo Hero Area------------------>
-<!-----------------CLIENT LOGO AREA------------------>
+
 <section id="client-logos">
 	<div class="row">
 		<div class="small-12" id="logo-content">
@@ -154,16 +154,15 @@
 		</div>
 	</div>
 </section>
-<!-----------------END CLIENT LOGO AREA------------------>
 
 <section id="cobuying-explained">
 	<div class="row">
 		<div class="small-12 columns" id="explanation-message">
-			<img src="images/v2/cobuying-explained.jpg">
+			<img src="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/images/v2/cobuying-explained.jpg">
 		</div>
 		<div class="small-12 columns cta">
 			<p class="text-center">
-				<a class="button radius" href="/">Read more &gt;</a>
+				<a class="button radius" href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/cobuying-explained.html">Read more &gt;</a>
 			</p>
 		</div>
 	</div>
@@ -190,7 +189,7 @@
 			Our focus is on helping clients take the journey from Interaction to Selling on social.
 
 			<p class="cta">
-				<a href="" class="button radius">I'm ready &gt;</a>
+				<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/price-plans.html" class="button radius">I'm ready &gt;</a>
 			</p>
 		</div>
 	</div>
@@ -258,7 +257,7 @@
 
 	<div id="what" class="row">
 		<div class="small-12 columns small-margin text-center">
-			<a href="" class="button radius">View case study &gt;</a>
+			<a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/case-studies.html" class="button radius">View case study &gt;</a>
 		</div>
 	</div>
 </section>
@@ -267,8 +266,8 @@
 <section id="the-impact-of-cobuying">
 	<div class="row">
 			<div class="small-12 columns xlarge-margin text-center" id="impact-infographic">
-				<img src="images/v2/cobuy-facts.png"/>
-				<p><a href="" class="button radius">Read more &gt;</a></p>
+				<img src="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/images/v2/cobuy-facts.png"/>
+				<p><a href="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/platform.html" class="button radius">Read more &gt;</a></p>
 			</div>
 	</div>
 </section>
@@ -296,8 +295,8 @@
 		</div>
 		<div class="small-12 medium-4 large-4 columns large-margin-bottom">
 			<h3>Find us</h3>
-			<a href="https://www.google.co.uk/maps/preview#!q=buyapowa%2C+Greville+Street%2C+City+of+London%2C+London+EC1N+8SS&data=!4m15!2m14!1m13!1s0x48761b4dfa6ee79b%3A0xdf121b93d3fb1b55!3m8!1m3!1d2463!2d-0.1063142!3d51.5195324!3m2!1i1043!2i762!4f13.1!4m2!3d51.519521!4d-0.10631">
-				<img src="images/v2/footer/map.png">
+			<a target="_bplocation" href="https://www.google.co.uk/maps/preview#!q=buyapowa%2C+Greville+Street%2C+City+of+London%2C+London+EC1N+8SS&data=!4m15!2m14!1m13!1s0x48761b4dfa6ee79b%3A0xdf121b93d3fb1b55!3m8!1m3!1d2463!2d-0.1063142!3d51.5195324!3m2!1i1043!2i762!4f13.1!4m2!3d51.519521!4d-0.10631">
+				<img src="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/images/v2/footer/map.png">
 			</a>
 		</div>
 	</div>	
@@ -321,13 +320,35 @@
 	</div>
 </footer>
 
-  
-   
-       
-    <script src="js/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+
+
+
+    <script src="http://ww2.buyapowa.com/site_content/wp-content/themes/buyapowa/js/v2/all.js" type="text/javascript"></script>
+    <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-34085386-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]>
+   </script>
+<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/317650.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
   </body>
 </html>
