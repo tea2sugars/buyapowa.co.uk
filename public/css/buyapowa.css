@@ -92,7 +92,7 @@ header {
     margin-top: 10px;
     width: 199px;
     height: 33px;
-    background: url(/images/v2/buyapowa-logo.jpg) no-repeat;
+    background: url(../images/v2/buyapowa-logo.jpg) no-repeat;
     text-indent: -9999px; }
   header ul {
     list-style: none;
@@ -145,7 +145,7 @@ nav#main-nav {
 
 #hero {
   width: 100%;
-  background: url(/images/v2/hero-background.jpg) no-repeat;
+  background: url(../images/v2/hero-background.jpg) no-repeat;
   min-height: 450px;
   height: auto; }
   #hero a.button {
@@ -170,7 +170,7 @@ nav#main-nav {
   width: 960px; }
 
 #client-logos div#logo-content {
-  background: url(/images/v2/client-logos.jpg) no-repeat;
+  background: url(../images/v2/client-logos.jpg) no-repeat;
   background-size: contain;
   height: 67px; }
 
@@ -184,7 +184,7 @@ nav#main-nav {
 section#gladiators-are-you-ready {
   margin-top: 20px; }
   section#gladiators-are-you-ready #social-commerce-steps {
-    background: url(/images/v2/social-commerce-steps.jpg) no-repeat;
+    background: url(../images/v2/social-commerce-steps.jpg) no-repeat;
     background-size: contain;
     background-position: center;
     height: 310px; }
@@ -214,22 +214,22 @@ ul.social-widget {
     height: 35px; }
   ul.social-widget li.linked-in {
     background-position: 0px 0px;
-    background: url(/images/v2/footer/social-sprite.png); }
+    background: url(../images/v2/footer/social-sprite.png); }
   ul.social-widget li.linked-in:hover {
     background-position: 0px -40px; }
   ul.social-widget li.twitter {
     background-position: 0px -80px !important;
-    background: url(/images/v2/footer/social-sprite.png); }
+    background: url(../images/v2/footer/social-sprite.png); }
   ul.social-widget li.twitter:hover {
     background-position: 0px -120px !important; }
   ul.social-widget li.facebook {
     background-position: 0px -160px !important;
-    background: url(/images/v2/footer/social-sprite.png); }
+    background: url(../images/v2/footer/social-sprite.png); }
   ul.social-widget li.facebook:hover {
     background-position: 0px -200px !important; }
   ul.social-widget li.googleplus {
     background-position: 0px -240px !important;
-    background: url(/images/v2/footer/social-sprite.png); }
+    background: url(../images/v2/footer/social-sprite.png); }
   ul.social-widget li.googleplus:hover {
     background-position: 0px -280px !important; }
 
@@ -254,7 +254,7 @@ footer {
   font-size: 0.9em; }
 
 #powered-by {
-  background: url(/images/v2/powered-by.jpg) no-repeat;
+  background: url(../images/v2/powered-by.jpg) no-repeat;
   min-width: 143px;
   min-height: 36px; }
 
@@ -264,31 +264,31 @@ section#pricing-hero h1 {
   font-size: 1.8em; }
 
 section#price-plans div > h3#starter-plan {
-  background: url(/images/v2/starter.jpg) no-repeat;
+  background: url(../images/v2/starter.jpg) no-repeat;
   background-size: contain;
   background-position: center;
   height: 280px; }
 
 section#price-plans div > h3#prime {
-  background: url(/images/v2/prime.jpg) no-repeat;
+  background: url(../images/v2/prime.jpg) no-repeat;
   background-size: contain;
   background-position: center;
   height: 280px; }
 
 section#price-plans div > h3#pro {
-  background: url(/images/v2/pro.jpg) no-repeat;
+  background: url(../images/v2/pro.jpg) no-repeat;
   background-size: contain;
   background-position: center;
   height: 280px; }
 
 section#price-plans div > h3#enterprise {
-  background: url(/images/v2/enterprise.jpg) no-repeat;
+  background: url(../images/v2/enterprise.jpg) no-repeat;
   background-size: contain;
   background-position: center;
   height: 280px; }
 
 section#price-plans div#pricing-table {
-  background: url(/images/v2/pricing-table.jpg) no-repeat;
+  background: url(../images/v2/pricing-table.jpg) no-repeat;
   background-size: constrain;
   background-position: center;
   min-height: 628px; }
@@ -300,7 +300,7 @@ section#product-list {
   padding-bottom: 4em; }
 
   section#product-list div.row div#products {
-    background: url(/images/v2/product-list.jpg) no-repeat;
+    background: url(../images/v2/product-list.jpg) no-repeat;
     background-position: center;
     background-size: contain;
     min-height: 360px; }
