@@ -264,6 +264,13 @@ section#client-success {
 #the-impact-of-cobuying p {
 	margin:0 0 10px 0;
 	}
+#infographic {
+	margin-bottom:20px;
+}
+#impact-title {
+	width:840px;
+	margin:40px 30px 20px 0;
+}
 
 #block-1 {
 	border-right:	2px solid white;
@@ -311,7 +318,7 @@ section#client-success {
 	height:185px;
 }
 	#block-6 p {
-		margin:20px;
+		margin:30px 20px;
 }
 #block-7 {
 	border-top:		4px solid white;
