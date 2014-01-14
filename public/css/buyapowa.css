@@ -183,11 +183,13 @@ nav#main-nav {
 
 section#gladiators-are-you-ready {
   margin-top: 20px; }
-  section#gladiators-are-you-ready #social-commerce-steps {
-    background: url(../images/v2/social-commerce-steps.jpg) no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 310px; }
+  section#gladiators-are-you-ready #social-commerce-steps h4 {
+  	color:#fff;
+}
+   	section#gladiators-are-you-ready #social-commerce-steps .navy {
+  	background:black;
+  	
+   }
 
 section#client-success {
   background: #f2f2f2;
