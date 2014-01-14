@@ -264,6 +264,12 @@ section#client-success {
 #the-impact-of-cobuying p {
 	margin:0 0 10px 0;
 	}
+#the-impact-of-cobuying h4 {
+	color:white;
+	font-size: 24px;
+	margin:10px 0 0 0;
+	text-transform: uppercase;
+	}
 #infographic {
 	margin-bottom:20px;
 }
@@ -273,84 +279,95 @@ section#client-success {
 }
 
 #block-1 {
-	border-right:	2px solid white;
-	height:			400px;
+	height:			180px;
+	margin-bottom:10px;
 	}
 	#block-1 p {
+		text-align: center;
 		margin:20px;
 }
 	
 #block-2 {
-	border-left:	2px solid white;
-	border-right:	2px solid white;
+	margin-bottom:10px;
 }
 	#block-2 p {
+			text-align: center;
 			margin:20px;
 	}
 #block-3 {
-	border-left:	2px solid white;
-	border-right:0;
+	margin-bottom:10px;
 }
 	#block-3 p {
+			text-align: center;
 			margin:20px;
 	}
 #block-4 {
-	border-top:		4px solid white;
-	border-left:	2px solid white;
-	height:203px;
+margin-bottom:10px;
+	height:180px;
 }
 	#block-4 p {
+		text-align: center;
 		margin:20px;
 	}
 #block-5 {
-	border-bottom:		2px solid white;
-	border-right:	2px solid white;
-	border-top:		4px solid white;
-	height:185px;
+	margin-bottom:10px;
+	height:180px;
 }
 	#block-5 p {
+		text-align: center;
 		margin:40px 20px 0 20px;
 }
 #block-6 {
-	border-top:		2px solid white;
-	border-right:	2px solid white;
-	height:185px;
+	margin-bottom:10px;
+	height:180px;
 }
 	#block-6 p {
+		text-align: center;
 		margin:30px 20px;
 }
 #block-7 {
-	border-top:		4px solid white;
-	border-left:	2px solid white;
-	height:			370px;
+	margin-bottom:10px;
+	height:			180px;
 }
 	#block-7 p {
+		text-align: center;
 		margin:20px;
 
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+			#impact-title {
+				width:840px;
+				margin:40px 30px 20px 0;
+			}
 			#block-1 {
 				height:			280px;
 				border-left:	2px solid white;
 				border-right:	2px solid white;
 				border-bottom:		4px solid white;
+				margin-bottom:0;
+
 			}
 				#block-1 p {
+				text-align: left;
 				margin:20px 10px 0 10px;
 				}
 			#block-2 {
 				border-left:	2px solid white;
 				border-right:	2px solid white;
+				margin-bottom:0;
 			}
 				#block-2 p {
+						text-align: left;
 						margin:20px;
 				}
 			#block-3 {
 				border-left:	2px solid white;
 				border-right:	2px solid white;
+				margin-bottom:0;
 			}
 				#block-3 p {
+						text-align: left;
 						margin:20px;
 				}
 			#block-4 {
@@ -358,8 +375,10 @@ section#client-success {
 				border-left:	2px solid white;
 				border-right:	2px solid white;
 				height:203px;
+				margin-bottom:0;
 			}
 				#block-4 p {
+					text-align: left;
 					margin:20px;
 				}
 			#block-5 {
@@ -368,30 +387,112 @@ section#client-success {
 				border-left:		2px solid white;
 				border-top:			4px solid white;
 				height:185px;
+				margin-bottom:0;
 			}
 				#block-5 p {
+					text-align: left;
 					margin:40px 20px 0 20px;
 			}
 			#block-6 {
 				border-top:		2px solid white;
 				border-right:	2px solid white;
 				border-left:		2px solid white;
-				height:160px;
+				height:140px;
+				margin-bottom:0;
 			}
 				#block-6 p {
-					margin:30px 20px;
+					text-align: left;
+					margin:20px 20px;
 			}
 			#block-7 {
 				border-top:		4px solid white;
 				border-left:	2px solid white;
 				border-right:	2px solid white;
 				height:			350px;
+				margin-bottom:0;
 			}
 				#block-7 p {
+					text-align: left;
 					margin:20px;
 			
 			}
 			
+}
+@media only screen and (min-width: 64.063em) {
+	#impact-title {
+		width:840px;
+		margin:40px 0 20px 100px;
+	}
+	#block-1 {
+		border-right:	2px solid white;
+		height:			400px;
+		margin-bottom:0;
+		}
+		#block-1 p {
+			text-align: left;
+			margin:20px;
+	}
+		
+	#block-2 {
+		border-left:	2px solid white;
+		border-right:	2px solid white;
+		margin-bottom:0;
+	}
+		#block-2 p {
+				text-align: left;
+				margin:20px;
+		}
+	#block-3 {
+		border-left:	2px solid white;
+		border-right:0;
+		margin-bottom:0;
+	}
+		#block-3 p {
+				text-align: left;
+				margin:20px;
+		}
+	#block-4 {
+		border-top:		4px solid white;
+		border-left:	2px solid white;
+		height:203px;
+		margin-bottom:0;
+	}
+		#block-4 p {
+			text-align: left;
+			margin:20px;
+		}
+	#block-5 {
+		border-bottom:		2px solid white;
+		border-right:	2px solid white;
+		border-top:		4px solid white;
+		height:185px;
+		margin-bottom:0;
+	}
+		#block-5 p {
+			text-align: left;
+			margin:40px 20px 0 20px;
+	}
+	#block-6 {
+		border-top:		2px solid white;
+		border-right:	2px solid white;
+		height:185px;
+		margin-bottom:0;
+	}
+		#block-6 p {
+			text-align: left;
+			margin:30px 20px;
+	}
+	#block-7 {
+		border-top:		4px solid white;
+		border-left:	2px solid white;
+		height:			370px;
+		margin-bottom:0;
+	}
+		#block-7 p {
+			text-align: left;
+			margin:20px;
+	
+	}
 }
 
 
