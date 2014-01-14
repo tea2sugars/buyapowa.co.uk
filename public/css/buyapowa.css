@@ -173,6 +173,11 @@ nav#main-nav {
   background: url(../images/v2/client-logos.jpg) no-repeat;
   background-size: contain;
   height: 67px; }
+@media only screen and (max-width: 40em) {
+	#client-logos div#logo-content {
+		height: 30px;
+	}
+	}
 
 #cobuying-explained {
   background: #f2f2f2;
@@ -183,13 +188,35 @@ nav#main-nav {
 
 section#gladiators-are-you-ready {
   margin-top: 20px; }
-  section#gladiators-are-you-ready #social-commerce-steps h4 {
-  	color:#fff;
-}
-   	section#gladiators-are-you-ready #social-commerce-steps .navy {
-  	background:black;
-  	
-   }
+  section#gladiators-are-you-ready #social-commerce-steps  {
+	  
+  }
+	  section#gladiators-are-you-ready #social-commerce-steps h4 {
+	  	color:#fff; 
+	  	
+	  	}
+	  	
+	  	section#gladiators-are-you-ready #social-commerce-steps .navy {
+		  	background:#0e2f40;
+		  	min-height:250px;
+		  	}
+	  		section#gladiators-are-you-ready #social-commerce-steps .scs-header {
+	  		background: url(../images/v2/elements/scs_arrow.gif) center bottom no-repeat;
+	  		height: 100px;
+	  		padding:5px;
+		  	}
+		  	section#gladiators-are-you-ready #social-commerce-steps .scs-body {
+			  	padding:20px 0; 
+			  	margin-bottom: 20px;
+		  	}
+@media only screen and (max-width: 40em) {
+		  section#gladiators-are-you-ready #social-commerce-steps h4 {
+		  	font-size:1.5em; 
+		  	}
+		  section#gladiators-are-you-ready #social-commerce-steps .scs-header {
+		  	height:70px;
+		  }	
+	  	}
 
 section#client-success {
   background: #f2f2f2;
