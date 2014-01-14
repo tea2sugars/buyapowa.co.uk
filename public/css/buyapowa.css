@@ -229,6 +229,101 @@ section#client-success {
   #impact-infographic a {
     margin-top: 1em; }
 
+#the-impact-of-cobuying .columns {
+	color:white;
+	}
+#the-impact-of-cobuying .title {
+	
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	margin:0;
+	
+}
+	
+.info-blue {
+	background: #1695dc;
+}
+.info-dk-blue {
+	background: #1d71a0;
+}
+.info-mid-blue {
+	background: #5c98b9;
+}
+.info-navy-blue {
+	background:#184a66;
+}
+
+.small-text {
+	letter-spacing: 1px;
+	line-height: 1.1;
+	font-size: 1.0em;
+	font-weight: 200;
+	margin:0;
+	}
+#the-impact-of-cobuying p {
+	margin:0 0 10px 0;
+	}
+
+#block-1 {
+	border-right:	2px solid white;
+	height:			400px;
+	}
+	#block-1 p {
+		margin:20px;
+}
+
+	
+#block-2 {
+	border-left:	2px solid white;
+	border-right:	2px solid white;
+}
+	#block-2 p {
+			margin:20px;
+	}
+#block-3 {
+	border-left:	2px solid white;
+
+}
+	#block-3 p {
+			margin:20px;
+	}
+#block-4 {
+	border-top:		4px solid white;
+	border-left:	2px solid white;
+	height:203px;
+}
+	#block-4 p {
+		margin:20px;
+	}
+#block-5 {
+	border-bottom:		2px solid white;
+	border-right:	2px solid white;
+	border-top:		4px solid white;
+	height:185px;
+}
+	#block-5 p {
+		margin:40px 20px 0 20px;
+}
+#block-6 {
+	border-top:		2px solid white;
+	border-right:	2px solid white;
+	height:185px;
+}
+	#block-6 p {
+		margin:20px;
+}
+#block-7 {
+	border-top:		4px solid white;
+	border-left:	2px solid white;
+	height:			370px;
+}
+	#block-7 p {
+		margin:20px;
+
+}
+
+
 ul.social-widget {
   list-style: none;
   margin: 0;
@@ -342,3 +437,5 @@ section#product-list {
 #meta div > p {
   font-size: 0.8em;
   line-height: 1.8em; }
+  
+
