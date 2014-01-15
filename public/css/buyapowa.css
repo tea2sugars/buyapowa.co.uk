@@ -185,8 +185,67 @@ nav#main-nav {
   padding-top: 30px; }
   #cobuying-explained div#explanation-message {
     max-width: 960px; }
-    #cobuying-explained .grey-icon {
-	       }
+
+#co-buying-models {
+	margin:20px auto 0 auto;
+	}
+.pricing-table {
+	background:none;
+	border:none;
+}
+	.pricing-table .icon {
+		text-align: center;
+	}
+	.pricing-table .title {
+		background:none;
+		padding: 0.9375rem 1rem;
+		
+	}
+	.pricing-table .title h4 {
+		margin:0;
+		padding:0;
+		font-size:14px;
+		border-bottom: 1px dotted grey;
+		height:60px;
+		text-transform: uppercase;
+
+		
+		
+	}
+	.pricing-table .description{
+		background:none;
+		border: none;
+		color:black;
+		padding:0 10px 10px 10px;
+		height:140px;
+	}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+	.pricing-table .title h4 {
+
+		font-size:16px;
+		height:40px;
+		
+	}
+	.pricing-table .description{
+		padding:0 10px 10px 10px;
+		height:80px;
+	}
+
+}
+
+@media only screen and (min-width: 64.063em) {
+	.pricing-table .title h4 {
+
+		font-size:16px;
+		height:40px;
+		
+	}
+
+}
+
+
 
 section#gladiators-are-you-ready {
   margin-top: 20px; }
