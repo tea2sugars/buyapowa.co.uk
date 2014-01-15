@@ -700,7 +700,8 @@ section#product-list {
     text-align: center;
     color: #333333;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+	height:60px;
     }
   .cost-table .description {
     background-color: white;
@@ -718,20 +719,33 @@ section#product-list {
     color: #333333;
     font-size: 0.875rem;
     font-weight: normal;
-    border-bottom: dotted 1px #dddddd; }
+    border-bottom: dotted 1px #dddddd;
+    height:60px; }
   .cost-table .cta-button {
     text-align: center;
     padding: 1.25rem 1.25rem 0; }
     .cost-table .cost-highlight {
 	    border:1px solid white;
-	    padding:2px;
+	    padding:5px;
+	    margin:5px 0;
     }
     .cost-hero {
 	    background: #0d2f40;
 	    color:white;
+	    margin-bottom: 10px;
+    }
+    
+    .cost-hero .title {
+	    -webkit-box-shadow: 1px 1px 20px 1px rgba(255,255,255,0.5);
+		box-shadow: 1px 1px 20px 1px rgba(255,255,255,0.5);
     }
     .cost-hero .bullet-item, .cost-hero .price {
 	    color: white;
     }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .cost-table .price {
+	  height:80px;
+  }
+}
   
 
