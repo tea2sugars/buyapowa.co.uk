@@ -110,38 +110,49 @@ header {
 section#nav-container {
   background: #0d2f40;
   height: auto;
-  padding-top: 12px;
   width: 100%; }
 
 nav#main-nav {
-  background: #0d2f40;
-  min-height: 40px; }
+  
+  }
   nav#main-nav ul {
-    margin-top: 3px;
-    list-style: none; }
+    list-style: none;
+        height:30px;
+
+    padding: 5px 0; }
     nav#main-nav ul li {
+      
+      
+      }
+      nav#main-nav ul li a {
       -webkit-font-smoothing: antialiased;
       color: #fff;
       margin-right: 2.5em;
       float: left;
-      padding-bottom: 0.2em; }
-      nav#main-nav ul li a {
+      margin:0 5px;
         color: #fff;
-        font-family: "museo-sans",sans-serif;
+        font-family: "museo-sans", helvetica,sans-serif;
         font-style: normal;
         font-weight: 100;
         font-size: 1.1em;
-        text-transform: uppercase; }
-      nav#main-nav ul li a:hover {
-        text-decoration: underline; }
-      nav#main-nav ul li a.button {
-        margin-top: -0.5em;
-        margin-bottom: 0px;
-        padding-top: 7px;
-        height: 35px;
-        text-decoration: none; }
-    nav#main-nav ul li:last-child {
-      margin-right: 0; }
+        text-transform: uppercase;
+        padding:5px 15px;
+}
+	nav#main-nav ul li a:hover {
+		text-decoration: underline;
+	}
+	nav#main-nav ul li a.callout {
+		background: #2A99CE;
+		 border-bottom-left-radius: 3px;
+	    border-bottom-right-radius: 3px;
+	    border-top-left-radius: 3px;
+	    border-top-right-radius: 3px;
+	}
+	nav#main-nav ul li a.callout:hover {
+		background: #006687;
+		text-decoration: none;
+	}
+      
 
 #hero {
   width: 100%;
@@ -746,6 +757,11 @@ section#product-list {
   .cost-table .price {
 	  height:80px;
   }
+}
+
+.gform_body .inline-list > li {
+margin-left:0;
+	
 }
   
 
