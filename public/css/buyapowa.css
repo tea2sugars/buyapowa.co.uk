@@ -671,4 +671,67 @@ section#product-list {
   font-size: 0.8em;
   line-height: 1.8em; }
   
+.cost-table {
+  margin-left: 0;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem; 
+  padding-top:20px;}
+  .cost-table * {
+    list-style: none;
+    line-height: 1; }
+  .cost-table .title {
+    background-color: white;
+    text-align: center;
+    text-transform:uppercase;
+    color: #6b6b6b;
+    font-weight: normal;
+    font-size: 1rem;
+    -webkit-border-radius: 100%;
+	border-radius: 100%;
+	height:120px;
+	width:120px;
+	padding-top:55px;
+	-webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.2);
+	margin: 0 auto;
+     }
+  .cost-table .price {
+    padding: 0.9375rem 1.25rem;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    font-size: 1.2rem;
+    }
+  .cost-table .description {
+    background-color: white;
+    padding: 0.9375rem;
+    text-align: center;
+    color: #777777;
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 1.4;
+    border-bottom: dotted 1px #dddddd; }
+  .cost-table .bullet-item {
+    background-color: none;
+    padding: 0.9375rem;
+    text-align: center;
+    color: #333333;
+    font-size: 0.875rem;
+    font-weight: normal;
+    border-bottom: dotted 1px #dddddd; }
+  .cost-table .cta-button {
+    text-align: center;
+    padding: 1.25rem 1.25rem 0; }
+    .cost-table .cost-highlight {
+	    border:1px solid white;
+	    padding:2px;
+    }
+    .cost-hero {
+	    background: #0d2f40;
+	    color:white;
+    }
+    .cost-hero .bullet-item, .cost-hero .price {
+	    color: white;
+    }
+  
 
