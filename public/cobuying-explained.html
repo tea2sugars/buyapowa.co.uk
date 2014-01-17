@@ -9,11 +9,10 @@
     <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/foundation.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="css/buyapowa.css" media="screen" rel="stylesheet" type="text/css" />
-	
     <script src="js/modernizr.js" type="text/javascript"></script>
     <script type="text/javascript" src="//use.typekit.net/kqm0yox.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-     <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 	  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
 	  <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
 	  <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
@@ -57,83 +56,84 @@
 </header>
 
 <section id="nav-container">
-	<nav id="main-nav" class="row">
-		<div class="small-12 columns show-for-medium-up">
-			<ul>
-				<li>
-					<a href="cobuying-explained.html">
-						Co-buying
-					</a>
-				</li>
-				<li>
-					<a href="platform.html">
-						Platform
-					</a>
-				</li>
-				<li>
-					<a href="price-plans.html">
-						Plan &amp; Prices
-					</a>
-				</li>
-				<li class="#show-for-medium-up">
-					<a href="case-studies.html">
-						Customers
-					</a>
-				</li>
-				<li class="show-for-large-up">
-					<a href="resources.html">
-						Resources
-					</a>
-				</li>
-				<li class="show-for-large-up">
-					<a href="price-plans.html" class="callout">
-						Get started &gt;
-					</a>
-				</li>
-			</ul>
-		</div>
-
-		<div id="menu-bar" class="small-12 columns show-for-small">			
-			<a href="#" >Menu &gt;</a>
-		</div>
-		<div class="row show-for-small">
-			<div class="menu-bar-items small-12 columns hide">
-			<ul>
-				<li>
-					<a href="cobuying-explained.html">
-						Co-buying
-					</a>
-				</li>
-				<li>
-					<a href="platform.html">
-						Platform
-					</a>
-				</li>
-				<li>
-					<a href="price-plans.html">
-						Plan &amp; Prices
-					</a>
-				</li>
-				<li class="">
-					<a href="case-studies.html">
-						Customers
-					</a>
-				</li>
-				<li class="">
-					<a href="resources.html">
-						Resources
-					</a>
-				</li>
-				<li class="">
-					<a href="price-plans.html" class="button radius tiny">
-						Get started &gt;
-					</a>
-				</li>
-			</ul>
+		<nav id="main-nav" class="row">
+			<div class="small-12 columns show-for-medium-up">
+				<ul>
+					<li>
+						<a href="cobuying-explained.html">
+							Co-buying
+						</a>
+					</li>
+					<li>
+						<a href="platform.html">
+							Platform
+						</a>
+					</li>
+					<li>
+						<a href="price-plans.html">
+							Plan &amp; Prices
+						</a>
+					</li>
+					<li class="#show-for-medium-up">
+						<a href="case-studies.html">
+							Customers
+						</a>
+					</li>
+					<li class="show-for-large-up">
+						<a href="resources.html">
+							Resources
+						</a>
+					</li>
+					<li class="show-for-large-up">
+						<a href="price-plans.html" class="callout">
+							Get started &gt;
+						</a>
+					</li>
+				</ul>
 			</div>
-		</div>
-		
-	</nav>
+
+<!-- Right Nav Section -->
+    <nav class="top-bar show-for-small " data-topbar> 
+    	<ul class="title-area ">
+    		<li class="toggle-topbar menu-icon left">
+    			<a href="#">Menu</a>
+    		</li>
+    		<ul class="left">
+    			<li>
+							<a href="cobuying-explained.html">
+									Co-buying
+								</a>
+							</li>
+							<li>
+								<a href="platform.html">
+									Platform
+								</a>
+							</li>
+							<li>
+								<a href="price-plans.html">
+									Plan &amp; Prices
+								</a>
+							</li>
+							<li class="">
+								<a href="case-studies.html">
+									Customers
+								</a>
+							</li>
+							<li class="">
+								<a href="resources.html">
+									Resources
+								</a>
+							</li>
+							<li class="">
+								<a href="price-plans.html">
+									Get started &gt;
+								</a>
+							</li>
+    			
+    		</ul>
+    	</ul> 
+    	
+</nav>
 
 </section>
 
@@ -280,10 +280,6 @@
 
 
 
-  <script src="js/rem.js" type="text/javascript"></script></body>
-
-</html>
-
     <script src="js/all.js" type="text/javascript"></script>
     <script type="text/javascript">//<![CDATA[
             // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
@@ -300,8 +296,8 @@
                 s.parentNode.insertBefore(ga, s);
             })();
             //]]>
-        </script>
-    <!-- Start of Async HubSpot Analytics Code -->
+   </script>
+<!-- Start of Async HubSpot Analytics Code -->
   <script type="text/javascript">
     (function(d,s,i,r) {
       if (d.getElementById(i)){return;}
@@ -311,7 +307,11 @@
     })(document,"script","hs-analytics",300000);
   </script>
 <!-- End of Async HubSpot Analytics Code -->
-  <script src="js/rem.js" type="text/javascript"></script>
+<script src="js/rem.js" type="text/javascript"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
-
 </html>
