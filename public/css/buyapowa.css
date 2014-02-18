@@ -833,13 +833,28 @@ hr {
 
 .resource-list {
 	text-align:		center;
+	
+
 }
+
+.three-col-list {
+	width:690px;
+	margin:0 auto;
+}
+
 .resource-list li {
-	display:		inline-block;
+	display:		inline-table;
 	text-align:		center;
-	width:			118px;
-	margin:			0 10px;
+	width:			219px;
+	margin:			0 0px 20px 0px;
 }
+
+.resource-list li img {
+	height:299px;
+	width:219px;
+	margin-bottom: 10px;
+}
+
 
 
 
