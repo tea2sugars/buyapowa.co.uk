@@ -815,6 +815,11 @@ hr {
 }
 
 .resources .row h3 {margin-top:20px;}
+.resources .row p {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
