@@ -814,12 +814,33 @@ hr {
 	background:#EDEDED;
 }
 
-.resources .row h3 {margin-top:20px;}
-.resources .row p {
-	width: 640px;
-	margin-left: auto;
-	margin-right: auto;
+.resources .row-resources h3 {
+	margin-top:		20px;
 }
+.resources .row-resources p {
+	width:			640px;
+	margin-left:	auto; 
+	margin-right:	auto;
+}
+
+@media only screen and (max-width: 40em) { 
+	.resources .row-resources p {
+		width:			95%;
+		margin-left:	auto; 
+		margin-right:	auto;
+	}
+}
+
+.resource-list {
+	text-align:		center;
+}
+.resource-list li {
+	display:		inline-block;
+	text-align:		center;
+	width:			118px;
+	margin:			0 10px;
+}
+
 
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
