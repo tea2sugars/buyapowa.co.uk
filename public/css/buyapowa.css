@@ -92,7 +92,7 @@ header {
     margin-top: 10px;
     width: 199px;
     height: 33px;
-    background: url(../images/v2/buyapowa-logo.jpg) no-repeat;
+    background: url(../images/v2/buyapowa.png) no-repeat;
     text-indent: -9999px; }
   header ul {
     list-style: none;
@@ -812,6 +812,7 @@ hr {
 
 .row-even {
 	background:#EDEDED;
+	max-width: 100%;
 }
 
 .resources .row-resources h3 {
