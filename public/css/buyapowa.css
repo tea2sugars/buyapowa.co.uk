@@ -154,7 +154,7 @@ nav#main-nav {
 	}
 	nav#main-nav ul li a.callout {
 		background: #2A99CE;
-		 border-bottom-left-radius: 3px;
+		border-bottom-left-radius: 3px;
 	    border-bottom-right-radius: 3px;
 	    border-top-left-radius: 3px;
 	    border-top-right-radius: 3px;
@@ -862,6 +862,72 @@ hr {
 	filter:alpha(opacity=100);
 	}
 
+.button-radius {
+		border-bottom-left-radius: 3px;
+	    border-bottom-right-radius: 3px;
+	    border-top-left-radius: 3px;
+	    border-top-right-radius: 3px;
+}
+
+.grey-button {
+	background:#EAEAEA;
+	
+}
+
+.dotted-underline {
+	border-bottom: 2px dotted #ddd;
+	padding-bottom:0.25em;
+}
+
+.top-dotted-border {
+	border-top: 2px dotted #ddd;
+	padding-top:0.25em;
+	margin-top:1em;
+}
+
+.social_maturity h2 {
+	color:#0079a1;
+	line-height: 1.2;
+	margin-top:1em;
+	text-transform: uppercase;
+
+}
+	.social_maturity h2 span {
+		color:#333333;
+		text-transform: capitalize;
+		font-size:0.65em;
+	}
+@media only screen and (max-width: 40em) { 
+	.social_maturity h3 {
+		font-size:1em;
+	}	
+}
+
+@media only screen and (min-width: 40.063em) {
+	.social_maturity h3 {
+		font-size:1.2em;
+	}
+}
+@media only screen and (min-width: 64.063em) {
+	.social_maturity h3 {
+		font-size:1.4em;
+	}
+
+}
+
+.social-stages {
+	background: #5BBCE6;
+	color:white;
+	padding:0.5em;
+}
+	.social-stages h6 {
+		color:white;
+		font-size:1.2em;
+	}
+
+.social-stages-middle {
+	background:#EAEAEA;
+}
 
 
 
